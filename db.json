@@ -1,1 +1,22 @@
-
+{
+    "data": [
+        {
+            "name": "Lecco Crianza ",
+            "type": "Red wine",
+            "producer": "Bodegas Resalte",
+            "country": "Spain",
+            "year": "2014",
+            "description": "Crianzaen - here you get value for money! The grapes come from vines that are more than 30 years old, giving Lecco Crianza concentration and power, reminiscent of those found in reserva. The wine is stored for 14 months on new French and American dishes, giving the wine time to absorb and integrate the flavors of the dish in the best possible way. On the palette, you remember a great deal of tannin, supplemented with the concentrated and intense fruit! Finally comes complex notes of both coffee, tobacco, vanilla and coconut!",
+            "price": 99.00
+        },
+        {
+            "name": "Marani Bianco Veronese",
+            "type": "White wine",
+            "producer": "Sartori",
+            "country": "Italy",
+            "year": "2016",
+            "description": "Sartori's history dates back to 1898, when Pietro Sartori bought a vineyard and a small cellar to ensure stable supplies of good quality wines to his hotel. This act symbolized the founding of the wine company Sartori - and wine has ever been the Sartori family call. More than 100 years have passed since its founding and today it is the 4th generation of the Sartori family that owns and manages the company. This white wine is produced from 100% Garganega grapes grown on Sartori's own vineyards in the Veneto area of ​​Italy. The grapes are hand-picked and carefully selected and have been dry for 40 days - the same method used for the Amarone wines, therefore called Marani 'The White Amarone'",
+            "price": 79.00
+          } 
+    ]
+}
