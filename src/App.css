@@ -1,0 +1,18 @@
+.App__content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.App__content * {
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #6a0d1b;
+text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

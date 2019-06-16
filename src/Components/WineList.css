@@ -1,0 +1,13 @@
+.Winelist {
+    margin: 0;
+    padding: 0;
+}
+
+.Winelist__item{
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.Winelist__item:last-child {
+    margin-bottom: 0;
+}
