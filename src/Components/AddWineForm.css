@@ -49,12 +49,23 @@
     font-size: 12px;
     margin-bottom: 3px;
 }
+@media (min-width: 1024px) {
+    .AddWineForm__label {
+        font-size: 14px;
+    }
+}
+
 
 .AddWineForm__input {
     border: 1px solid lightgray;
     border-radius: 6px;
     padding: 7.5px 10px;
     font-size: 14px;
+}
+@media (min-width: 1024px) {
+    .AddWineForm__input {
+        font-size: 18px;
+    }
 }
 
 .AddWineForm__button {
