@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "id": 1,
             "name": "Lecco Crianza ",
             "type": "Red wine",
             "producer": "Bodegas Resalte",
@@ -10,6 +11,7 @@
             "price": 99.00
         },
         {
+            "id": 2,
             "name": "Marani Bianco Veronese",
             "type": "White wine",
             "producer": "Sartori",
