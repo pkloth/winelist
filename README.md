@@ -3,9 +3,9 @@ Code case
 
 Some of the tools I have used:
 
-I used [Create React App](https://github.com/facebook/create-react-app)] with yarn to create the app.
+I used [Create React App](https://github.com/facebook/create-react-app) with yarn to create the app.
 
-For simulating API, I used [https://my-json-server.typicode.com/] - this is only faking the changes made, but it was to be able to simulate post of the added wine to the list.
+For simulating API, I used [my-json-server](https://my-json-server.typicode.com/) - this is only faking the changes made, but it was to be able to simulate post of the added wine to the list.
 
 
 On mobile a toggle function is used for the description to safe space - on desktip, de description is always visible.
