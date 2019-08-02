@@ -19,6 +19,17 @@
             "year": "2016",
             "description": "Sartori's history dates back to 1898, when Pietro Sartori bought a vineyard and a small cellar to ensure stable supplies of good quality wines to his hotel. This act symbolized the founding of the wine company Sartori - and wine has ever been the Sartori family call. More than 100 years have passed since its founding and today it is the 4th generation of the Sartori family that owns and manages the company. This white wine is produced from 100% Garganega grapes grown on Sartori's own vineyards in the Veneto area of ​​Italy. The grapes are hand-picked and carefully selected and have been dry for 40 days - the same method used for the Amarone wines, therefore called Marani 'The White Amarone'",
             "price": 79.00
+        }, 
+        {
+            "id": 3,
+            "name": "Harmonie de Gascogne",
+            "type": "Rosé wine",
+            "producer": "Domaine de Pellehaut",
+            "country": "France",
+            "year": "2018",
+            "description": "Harmonie de Gascogne Rosé is made from four distinctive grape varieties; The Merlot grape provides softness and fullness, the local Tannat grape provides weight and texture, and Cabernet Sauvignon and Syrah contribute intensity and freshness. The wine offers plenty of appetizing intense berry fruit and a crunchy crispy taste which is extremely delicious. This is simply a brilliant wine, which is almost begging to be enjoyed as an aperitif or as a glass in the 'old days'.",
+            "price": 69.00,
+            "imgUrl": "https://www.wine.dk/Files/Billeder/Vin/Harmonie-de-Gascogne-Rose-2018-73000201318_w112.jpg"
           } 
     ]
 }
