@@ -2,13 +2,14 @@
     "data": [
         {
             "id": 1,
-            "name": "Lecco Crianza ",
+            "name": "Lecco Crianza",
             "type": "Red wine",
             "producer": "Bodegas Resalte",
             "country": "Spain",
             "year": "2014",
             "description": "Crianzaen - here you get value for money! The grapes come from vines that are more than 30 years old, giving Lecco Crianza concentration and power, reminiscent of those found in reserva. The wine is stored for 14 months on new French and American dishes, giving the wine time to absorb and integrate the flavors of the dish in the best possible way. On the palette, you remember a great deal of tannin, supplemented with the concentrated and intense fruit! Finally comes complex notes of both coffee, tobacco, vanilla and coconut!",
-            "price": 99.00
+            "price": 99.00,
+            "imgUrl": "https://www.vildmedvin.dk/media/catalog/product/cache/9f19f51ebc2c422a175950c813355c68/f/o/foto_lecco_crz.jpg" 
         },
         {
             "id": 2,
@@ -18,7 +19,8 @@
             "country": "Italy",
             "year": "2016",
             "description": "Sartori's history dates back to 1898, when Pietro Sartori bought a vineyard and a small cellar to ensure stable supplies of good quality wines to his hotel. This act symbolized the founding of the wine company Sartori - and wine has ever been the Sartori family call. More than 100 years have passed since its founding and today it is the 4th generation of the Sartori family that owns and manages the company. This white wine is produced from 100% Garganega grapes grown on Sartori's own vineyards in the Veneto area of ​​Italy. The grapes are hand-picked and carefully selected and have been dry for 40 days - the same method used for the Amarone wines, therefore called Marani 'The White Amarone'",
-            "price": 79.00
+            "price": 79.00,
+            "imgUrl": "https://www.vildmedvin.dk/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/0/2035236_0_3.jpg" 
         }, 
         {
             "id": 3,
@@ -29,7 +31,29 @@
             "year": "2018",
             "description": "Harmonie de Gascogne Rosé is made from four distinctive grape varieties; The Merlot grape provides softness and fullness, the local Tannat grape provides weight and texture, and Cabernet Sauvignon and Syrah contribute intensity and freshness. The wine offers plenty of appetizing intense berry fruit and a crunchy crispy taste which is extremely delicious. This is simply a brilliant wine, which is almost begging to be enjoyed as an aperitif or as a glass in the 'old days'.",
             "price": 69.00,
-            "imgUrl": "https://www.wine.dk/Files/Billeder/Vin/Harmonie-de-Gascogne-Rose-2018-73000201318_w112.jpg"
+            "imgUrl": "https://www.wine.dk/Files/Billeder/Vin/Harmonie-de-Gascogne-Rose-2018-73000201318_w112.jpg" 
+        }, 
+        {
+            "id": 4,
+            "name": "Gumpoldskirchner Tradition",
+            "type": "White wine",
+            "producer": "Johanneshof Reinisch",
+            "country": "Austria",
+            "year": "2014",
+            "description": "The wines ferment separately, then mix and store for 4 months on large casks. Light yellow / green color and with an extremely elegant spicy bouquet of exotic fruits. Fresh and lively in the mouth with a nice and slightly tingling sensation on the tongue. There are also exotic fruits, pears and a little spice in the aftertaste, which ends neatly with a small touch of sweet fruit. Beautiful and charming Austrian who show how exciting and different wines they can produce. Is perfect companion to spicy Asian dishes, deep fried dishes such as veal, chicken pork. For soft cheeses and tapas. Serve at 10 ° C.",
+            "price": 119.00,
+            "imgUrl": "https://vinoggastro.dk/wp-content/uploads/2017/02/johanneshof-reinisch.jpg"
+        }, 
+        {
+            "id": 5,
+            "name": "Pinot Noir Eco Thermenregion",
+            "type": "Red wine",
+            "producer": "Johanneshof Reinisch",
+            "country": "Austria",
+            "year": "2017",
+            "description": "The Pinot Noir grapes for this wine come primarily from the vineyards around the village of Tattendorf, where the very mineral soil (pebbles, lime, sand, clay) is perfect for red grapes, not least Pinot Noir and St. Laurent. A small portion of the grapes are sourced from younger vines in the Gumpoldskirchen near Mount Anninger, where various clones of French, German and Austrian Pinot Noir are cultivated between Guntramsdorf and Mödling.After stripping and a gentle crush, the grapes are exposed to a short, cool skin maceration to optimize the color, aroma and flavor extract. The wine is then moved to wooden casks where fermentation takes place and where the wine matures for approx. 9-10 months on a combination of large wooden barrels (1,000-3,000 l.) And used barriques (225 l.) Pinot Noir has a nice, dark, ruby ​​red color. In the scent you will find elegant notes of raspberries, red cherries (cherries), but also wilder shades of forest strawberries and cranberries. The taste is fruity and immediate at first, but develops in the glass towards more crispness and depth, combined with mild spices and a more rounded tannin eventually. Served for pork, veal, game, pasta, risotto.",
+            "price": 119.00,
+            "imgUrl": "https://vinoble.dk/media/imagegenerator/80x0/0040321.jpg"
           } 
     ]
 }
