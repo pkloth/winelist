@@ -5,9 +5,29 @@
 
 .Winelist__item{
     list-style: none;
+    padding: 10px 20px 10px 0; 
     border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    position: relative;
+}
+
+.Winelist__item:after {
+    content: "\2794";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: right;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 .Winelist__item:last-child {
     margin-bottom: 0;
+}
+
+.Winelist__item-title {
+    font-weight: bold;
 }

@@ -1,0 +1,48 @@
+.Filter {
+
+}
+
+.Filter__list {
+    padding: 0;
+}
+
+.Filter__list-item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.checkbox input{
+    margin-right: 10px;
+    display: none;    
+}
+        
+.checkbox label{ 
+    text-transform: capitalize;
+    position: relative;
+}
+
+.checkbox label:before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.checkbox input:checked ~ label:after {
+    content: "\2713";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6a0d1b;
+}

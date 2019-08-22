@@ -1,12 +1,23 @@
 .WineItem {
     padding: 30px 10px;
+
 }
 @media (min-width: 1024px) {
     .WineItem {
-        padding: 50px 0;
+        padding: 20px;
+        margin-left: 30px;
     }
 }
 
+.WineItem__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.WineItem__info,
+.WineItem__image {
+    width: 50%;
+}
 .WineItem__title {
     margin-top: 0;
     margin-bottom: 20px;
@@ -33,6 +44,13 @@
     }
 }
 
+.WineItem__image img{
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 .WineItem__content {
     display: flex;
     flex-direction: column;
@@ -45,30 +63,25 @@
         width: 50%;
         padding-right: 50px;
     } 
-    .WineItem__content > div:nth-child(odd){
-        padding-right: 0;
-        padding-left: 50px;
-        border-left: 1px solid lightgray;
-    }
 }
 
-.WineItem__info {
+.WineItem__short-info {
     margin-top: 20px;
     font-size: 14px;
 }
 @media (min-width: 768px) {
-    .WineItem__info {
+    .WineItem__short-info {
         font-size: 16px;
     }
 }
 @media (min-width: 1024px) {
-    .WineItem__info {
+    .WineItem__short-info {
         order: 2;
         margin-top: 30px;
     }
 }
 
-.WineItem__info p,
+.WineItem__short-info p,
 .WineItem__descriptionToggle p{
     margin-top: 0;
     margin-bottom: 10px;
@@ -77,7 +90,7 @@
     color: #6a0d1b;
 }
 @media (min-width: 1024px) {
-    .WineItem__info p,
+    .WineItem__short-info p,
     .WineItem__descriptionToggle p{
         margin-bottom: 20px;
     }
@@ -110,21 +123,26 @@
 
 .WineItem__descriptionToggle {
     cursor: pointer;
+    position: relative;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .WineItem__descriptionToggle {
         cursor: auto;
     }
-}
+} */
 
+.WineItem__descriptionToggle:after {
+    content:"";
+    position: absolute;
+}
 .WineItem__description {
     display: none;
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .WineItem__description {
         display: block;
     }
-}
+} */
 
 .WineItem__description.show {
     display: block;

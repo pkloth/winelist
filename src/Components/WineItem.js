@@ -18,47 +18,53 @@ class WineItem extends Component {
     }
 
     render() {
-        const {title, type, country, producer, year, description, price} = this.props
+        const {wine} = this.props
         return (
             <div className="WineItem">
-                <h3 className="WineItem__title">{producer}, {title}, {year}</h3>
-                <div className="WineItem__price">
-                  DKK  {price}
-                </div>
-                <div className="WineItem__content">
+                <div className="WineItem__header">
                     <div className="WineItem__info">
+                        <h3 className="WineItem__title">{wine.name}, {wine.producer}, {wine.year}</h3>
+                        <div className="WineItem__price">DKK  {wine.price}</div>
+
+                        <div className="WineItem__descriptionWrapper">
+                        <div className="WineItem__descriptionToggle" onClick={this.toggleClass.bind(this)}>
+                            <p>Description</p>
+                        </div>
+                        <div className={this.state.showDescription ? "WineItem__description show" : "WineItem__description"}>
+                            <p>{wine.description}</p>
+                        </div>
+                        <div className="WineItem__short-info">
                         <p>Information:</p>
                         <table className="WineItem__infoTable">
                         <tbody>
                         <tr>
                             <td>Type</td>
-                            <td>{type}</td>
+                            <td>{wine.type}</td>
                         </tr>
                         <tr>
                             <td>Country:</td>
-                            <td>{country}</td>
+                            <td>{wine.country}</td>
                         </tr>
                         <tr>
                             <td>Producer:</td>
-                            <td>{producer}</td>
+                            <td>{wine.producer}</td>
                         </tr>
                         <tr>
                             <td>Year:</td>
-                            <td>{year}</td>
+                            <td>{wine.year}</td>
                         </tr>
                         </tbody>
                         </table>
                     </div>
-                    <div className="WineItem__descriptionWrapper">
-                        <div className="WineItem__descriptionToggle" onClick={this.toggleClass.bind(this)}>
-                            <p>Description</p>
-                        </div>
-                        <div className={this.state.showDescription ? "WineItem__description show" : "WineItem__description"}>
-                            <p>{description}</p>
-                        </div>
+                    </div>
+                       
+                    </div>
+                    <div className="WineItem__image">
+                        <img src={wine.imgUrl} alt="wine.name"/>
                     </div>
                 </div>
-               
+                <div className="WineItem__content">
+                </div>               
             </div>
         )
     }
